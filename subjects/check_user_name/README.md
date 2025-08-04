@@ -12,7 +12,7 @@ You will also have to create a `User` struct which has:
 
 - Fields:
   - `name`: `String`
-  - `acessLevel`: `enum`
+  - `accessLevel`: `enum`
 - Associated functions:
   - `new`: which initializes the struct.
   - `send_name`: which takes only `self` as argument and returns an `Option<&str>` with `None` if the user is a `Guest` or the `name` if the `AccessLevel` has any of the other options.
